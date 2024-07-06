@@ -10,17 +10,17 @@
 
 2. Assumptions:
 
-    -Simulation begins from 0 seconds.
-    -The cafe has unlimited ingredients.
-    -If a customer arrives at time t, they place the order at time t, and the coffee starts getting prepared at time t+1.
-    -If a customer arrives at time t, and they have tolerance time tol => they collect their order only if it gets done on or before t + tol.
-    -Once an order is completed, the customer picks it up and leaves instantaneously.
-    -If a customer was already waiting, once a barista finishes their previous order, say at time t, they can start making the order of the waiting customer at time t+1.
-    -The cafe has infinite seating capacity.
+    - Simulation begins from 0 seconds.
+    - The cafe has unlimited ingredients.
+    - If a customer arrives at time t, they place the order at time t, and the coffee starts getting prepared at time t+1.
+    - If a customer arrives at time t, and they have tolerance time tol => they collect their order only if it gets done on or before t + tol.
+    - Once an order is completed, the customer picks it up and leaves instantaneously.
+    - If a customer was already waiting, once a barista finishes their previous order, say at time t, they can start making the order of the waiting customer at time t+1.
+    - The cafe has infinite seating capacity.
 
 3. Input format (all space separated):
 
-   -The first line contains B K N The next K lines contain c t_c The next N lines contain i x t_arr_i tol_i.
+   - The first line contains B K N The next K lines contain c t_c The next N lines contain i x t_arr_i tol_i.
 
 4. Output format:
 
